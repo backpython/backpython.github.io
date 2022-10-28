@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
@@ -421,11 +421,6 @@ section {
   position: relative;
 }
 
-.trainers .box-container .box:hover .content {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
 .trainers .box-container .box img {
   height: 100%;
   width: 100%;
@@ -440,8 +435,6 @@ section {
   right: 0;
   background: #111;
   padding: 2rem;
-  -webkit-transform: translateY(6.5rem);
-          transform: translateY(6.5rem);
 }
 
 .trainers .box-container .box .content span {
